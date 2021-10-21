@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS LINK -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- LINK ICONE -->
+    <link href="./assets/age-group.png" rel="icon" type="image/png">
+
+    <title> Verificador de Idade </title>
+
+</head>
+
+<body>
+
+    <header>
+        
+        <h1 id="title"> Verificador de Idade </h1>
+
+    </header>
+
+    <section>
+        
+        <div id="container">
+
+            <p> Ano de Nascimento: <input id="yearB" type="number" name="age" placeholder="Digite aqui o ano"></p>
+            
+            <p> 
+                Sexo: 
+                <input class="sex" type="radio" name="sex" id="masc" checked>
+                <label for="masc"> Masculino </label>
+
+                <input class="sex" type="radio" name="sex" id="fem">
+                <label for="fem"> Feminino </label>
+
+            </p>
+
+            <input type="button" value="Verificar" onclick="verification()">
+
+        </div>
+
+        <div id="result">
+        </div>
+
+    </section>
+
+<script src="./script/script.js"></script> 
+</body>
+
+</html>
