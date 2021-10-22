@@ -19,7 +19,7 @@
 
 <!-- LINKS -->
 <div style="text-align:center">
-    <!-- <h3 style="text-align:center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3> -->
+    <h3 style="text-align:center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
     <a href="#sobre">Sobre o Projeto</a> - 
     <a href="#tec">Tecnologias</a>
 </div>
