@@ -57,3 +57,10 @@ input[type="button"]:active{
 #result {
     text-align: center;
 }
+
+@media screen and (max-width:1150px) {
+    body{
+        background-size: auto;
+       background-position-x: center;
+    }
+}
