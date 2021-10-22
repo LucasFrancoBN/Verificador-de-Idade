@@ -5,7 +5,9 @@
     <h2> 📸 Fotos </h2>
         <img src="./assets/verificador-de-idade1.png" alt="" style="width:750px" >
         <br><br>
-        <img src="./assets/verificador-res.png" alt="" style="width:750px">
+       
+ <h2> 📱 Responsivo </h2>
+    <img src="./assets/verificador-res.png" alt="" style="height:500px">
         <br><br>
         
    <h2> 🎥 GIFs </h2>
@@ -18,8 +20,8 @@
 </div>
 
 <!-- LINKS -->
-<div style="text-align:center">
-    <h3 style="text-align:center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
+<div style="align:center">
+    <h3 style="align:center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
     <a href="#sobre">Sobre o Projeto</a> - 
     <a href="#tec">Tecnologias</a>
 </div>
