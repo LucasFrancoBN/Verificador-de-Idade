@@ -15,7 +15,7 @@
 <!-- FOTOS -->
 <div id="fotos">
     <h2> 📸 Fotos </h2>
-        <img src="./assets/verificador-de-idade1.png" alt="" style="width:750px" >
+        <img src="./assets/verificador-de-idade1.png" alt="" style="width:750px">
         <br><br>
        
  <h2> 📱 Responsivo </h2>
@@ -23,20 +23,20 @@
         <br><br>
         
    <h2 id="GIFs"> 🎥 GIFs </h2>
-        <img src="./assets/verificador-g1.gif" alt="" style="width:750px" >
+        <img src="./assets/verificador-g1.gif" alt="" style="width:750px">
         <br><br>
 
-<img src="./assets/verificador-g2.gif" alt="" style="width:750px" >
+<img src="./assets/verificador-g2.gif" alt="" style="width:750px">
 <br><br>
 
 </div>
 
-<h3 style="align:center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
-
 <!-- SOBRE -->
 <div id="sobre">
     <h2> 📝 Sobre o Projeto </h2> 
-    <p> Esse Projeto foi feito no intuito de verificar a <stong>Idade</strong> de uma pessoa, dependendo do <strong>Ano de Nascimento</strong> e do <strong>Sexo</strong> biológico da pessoa. Depois do usuário escolher um ano de nascimento e o sexo, o verificador mostrará a idade e uma foto de uma pessoa da mesma idade.</p>
+    <p> Esse Projeto foi feito no intuito de verificar a <strong>Idade</strong> de uma pessoa, dependendo do <strong>Ano de Nascimento</strong> e do <strong>Sexo</strong> biológico da pessoa. Depois do usuário escolher um ano de nascimento e o sexo, o verificador mostrará a idade e uma foto de uma pessoa da mesma idade.</p>
+ 
+ <h3 align="center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
 
 </div>
 <br>
