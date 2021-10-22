@@ -55,9 +55,13 @@ function verification(){
         result.innerHTML = `<p>Identificamos uma criança de ${age} anos</p>`
         result.innerHTML += `<img src="./assets/mulher-c.png" alt="">`
     }
-    else {
+    else if (ageVeri() == "baby" && sexVeri() == "fem") {
         result.innerHTML = `<p>Identificamos um recém nascido de ${age} anos</p>`
         result.innerHTML += `<img src="./assets/mulher-rn.png" alt="">`
+    }
+    else if (ageVeri() == "Erro") {
+        result.innerHTML = `<p>Identificamos um Erro. Por favor, coloque um ano de nascimento válido</p>`
+        window.alert("Você colocou um ano de nascimento inválido. Por favor coloque um ano válido")
     }
     
 }
@@ -71,7 +75,7 @@ function calc (y1, y2) {
 
 function ageVeri() {
     if(calc() > 100 || calc() < 0){
-       return window.alert("Idade não reconhecida, coloque uma data valida");
+       return "Erro"
     }
     else if(calc() <= 100 && calc() >= 60) {
         return "old";
@@ -96,3 +100,4 @@ function sexVeri() {
     }
 
 }
+
